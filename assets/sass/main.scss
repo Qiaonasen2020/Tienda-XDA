@@ -1,0 +1,42 @@
+/* abstracts */
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+
+/* vendors */
+@import 'vendors/bootstrap-4.6.0/bootstrap.scss';
+
+
+/* base */
+@import 'base/reset';
+@import 'base/reset';
+@import 'base/typography';
+
+
+
+/* layout */
+@import 'layout/navigation';
+@import 'layout/grid';
+@import 'layout/main-section';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/sidebar';
+@import 'layout/forms';
+
+
+/* components */
+@import 'components/buttons';
+@import 'components/imput';
+@import 'components/carousel';
+@import 'components/cover';
+@import 'components/dropdown';
+
+
+/* pages */
+@import 'pages/home';
+
+
+
+/* themes */
+@import 'themes/theme';
+@import 'themes/admin';
